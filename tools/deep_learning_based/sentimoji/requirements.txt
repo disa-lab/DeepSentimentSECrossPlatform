@@ -1,0 +1,7 @@
+text_unidecode==1.3
+statsmodels==0.10.1
+numpy==1.17.2
+Keras
+emoji==0.5.4
+h5py==2.10.0
+scikit_learn==0.22

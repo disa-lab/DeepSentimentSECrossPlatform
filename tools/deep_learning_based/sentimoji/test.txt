@@ -1,0 +1,7 @@
+Can this actually happen? Wouldn't revision have to have _number 0, so the previous comparison would be false
+I suggest to add a wrapper class like \F3\FLOW3\Persistence\ObjectStorage and keep the API attach() and detach() stable
+This is more like an invalid option, not out of memory.
+You might even want to change (de)allocations in this source to use gf_*() routines (as a part of this patch or separately)
+This || breaks -e. If you need this information you need to reimplement -e yourself.  if ! go build -a std; then     failed=true     if $sete; then         exit 1     fi fi
+This comment doesn't sound right.  This if statement should be removed as lapd_handle should already be populated.
+I keep finding myself wanting to click on the link that says "Click image to edit". Can we make that part of the link?

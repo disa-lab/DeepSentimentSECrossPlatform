@@ -1,0 +1,3 @@
+Input file:extractedFeaturesLABEL.csv
+Classifier:L2-regularized_logistic_regression_(primal)
+Id Classifier:0

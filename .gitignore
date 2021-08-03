@@ -1,0 +1,38 @@
+*.pyc
+*.hdf5
+*.bin
+*.zip
+*.gz
+**/output
+**/backup
+**/predictions
+**/.empty
+*.npy
+*.jar
+batch_output.txt
+batch_over.txt
+
+**/blse/
+
+# Sentimoji Sepeific gitignore
+*sentimoji/result/*
+sentimoji/model/word_embeddings/**
+*.h5
+*.zip
+
+# Bert specific gitignor
+**/sosc_output_bak
+**/sosc_output
+**/uncased_L-12_H-768_A-12/
+**/bert/dataset/test.tsv
+**/bert/dataset/train.tsv
+
+# SEnti4sd specific
+**/senti4sd/py_senti4sd/train_test_dataset/
+**/py_senti4sd/*.model
+**/py_senti4sd/*_info
+**/senti4sd/py_senti4sd/temp_features/
+**/senti4sd/py_senti4sd/liblinear_perfomance/
+
+# SentiCR specific
+senticr/SentiCR/cross-validation-GBT.csv

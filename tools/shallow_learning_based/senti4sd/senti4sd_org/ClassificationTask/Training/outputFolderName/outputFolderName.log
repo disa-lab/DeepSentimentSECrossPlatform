@@ -1,0 +1,17 @@
+Error in file(file, "rt") : cannot open the connection
+Calls: read.csv -> read.table -> file
+Error: object 'dataset' not found
+Error: object 'dataset' not found
+Error: object 'dataset' not found
+Error in na.omit(dataset) : object 'dataset' not found
+Error: object 'dataset' not found
+Error in factor(dataset[, outcomeName]) : object 'dataset' not found
+Error in createDataPartition(dataset[, outcomeName], p = 0.7, list = FALSE) : 
+  object 'dataset' not found
+Error: object 'x' not found
+Error: object 'x' not found
+Error: object 'y' not found
+Error: object 'y' not found
+Error: object 'dataset' not found
+Error in LiblineaR(data = xTrain, target = yTrain, type = number, cost = co,  : 
+  object 'xTrain' not found
