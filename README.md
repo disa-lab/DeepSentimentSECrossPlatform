@@ -10,14 +10,9 @@ of newly developed deep learning based tools such as (BERT4SentiSE, SEntiMoji, R
 
 ## Benchmark Datasets
 For this study, we used three benchmark cross platform datasets from 
-1. **GitHub**, 
+<!-- 1. **GitHub**, 
 2. **Jira**, and 
-3. **Stack Overflow**. 
-
-- Our raw and processed dataset can be found inside <code>datasets/</code> folder. 
-- File <code>datasets/combined.csv</code> contained the combined datasets that is used by the following deep and shallow machine learning based sentiment analysis tools. 
-- File  <code>datasets/combined.csv</code> contains 10-fold **stratified** sampling with Scikit-learn. This 10-fold sampling is used to report the performance of echo tools in within-platform settings.
-
+3. **Stack Overflow**.  -->
 - The **[GitHub dataset](https://dl.acm.org/doi/abs/10.1145/3379597.3387446?casa_token=IVm2ckwP7tkAAAAA%3AiI5wI10i1PLqO39hFeWZgN1PcXNrDOUO61cbVuglZcAAm9uY9WkWngpiN9fmPsrhNb5FVasPGjDPtg)** contains around 7000 pull requestand commit comments. The  dataset is well balanced of 28% positive, 29% negative, and 43% neutral emotions.
 
 - The **[Jira dataset]()** contains around 6000 issue commentsand sentences of open source software projects (eg. Apache, Spring) annotated by software developers. This dataset was originally labelled with six emotions (i.e. love, joy, surprise, anger, fear, and sadness). In order to be consistent with other datasets, we can translate **love** and **joy** as a **positive emotion**, **anger** and **sadness** as a **negative emotion**. **surprise** cases are discarded as they could be either **positive** or **negative**.  Finally, the absence of emotions is labelled as **neutral**.  The  dataset is  not  well  balanced and the ratio is  **19%**  positive**,  **14%** negative, and **67%** neutral emotions.
@@ -43,29 +38,42 @@ For this study, we used three deep learning based tools and two shallow supervis
   1. **[SentistrengthSE](https://doi.org/10.1016/j.jss.2018.08.030)**: is developed by Md RakibulIslam and Minhaz F.Zibran on top of [SentiStrength](https://doi.org/10.1002/asi.21416) by introducing rules and sentiment words specific to Software Engineering. 
   
 
-## Tools Overview
-Tools folder contain their own `readme.md` file where it contains information about the tool from the original repository as well as some of our updated documentation. For each tools we provide the `requirements.txt` file that contains that environment configuration that we used during our experiments.
+<!-- ## Tools Overview
+Tools folder contain their own `readme.md` file where it contains information about the tool from the original repository as well as some of our updated documentation. For each tools we provide the `requirements.txt` file that contains that environment configuration that we used during our experiments. -->
+
+## Repo Structure
+- `/analysis` dir
+  - Contains the Jupyter notebooks that were used during analyzing the outputs and producing the results.
+- `/datasets` dir
+  - Contains the raw and processed datasets.
+  - `/combined.csv` file 
+    - contains the combined datasets that is used by the following deep and shallow machine learning based sentiment analysis tools. 
+    - contains 10-fold **stratified** sampling with Scikit-learn. This 10-fold sampling is used to report the performance of echo tools in within-platform settings.
+
+- `/generated_output` dir
+  - Contains generated combined outputs from all the tools based on all the datasets
+
+- `/manual_labeling` dir
+  - Contains the files that we generated after performing manual labeling.
+  - `error_categorization.csv` file contains labeling of BERT4SentiSE and SEntiMoji errors.
+  - `sentistrengthse_errors.csv` file contains labeling of SentistrentSE errors.
+- `/tools` dir
+  - Contains source codes of all the sentiment analysis tools that are used in this study
+  - `/deep_learning_based` dir
+    - `/bert4sentise` contains replication package of **[BERT4SentiSE](https://www.dropbox.com/sh/0dzw55rqo7e6k2g/AADS5M6QIbi9w3ntKqVesWtWa/Code?dl=0&subfolder_nav_tracking=1)**
+    - `/rnn4sentise` contains the complete replication package of **[RNN4SentiSE](https://www.dropbox.com/sh/0dzw55rqo7e6k2g/AADS5M6QIbi9w3ntKqVesWtWa/Code?dl=0&subfolder_nav_tracking=1)**
+    - `/sentimoji` contains the complete replication package of **[SEntiMoji](https://github.com/SEntiMoji/SEntiMoji)**
+  
+  - `/shallow_learning_based` dir
+    - `/senti4sd` contains the complete replication package of **[Senti4SD](https://github.com/collab-uniba/Senti4SD)**
+    - `/senticr` contains the complete replication package of **[SentiCR](https://github.com/senticr/SentiCR/)**
 
 
-<!-- - Folder **[cross_platform](https://github.com/al-alamin/Sentiment4SE/tree/main/cross_platform)** contains the complete set of dataset, codes, executable python files, results etc. of our research work. **Final output folder contains the prediction of 6 classifiers and our error categorization.**
-- bert4sentise
-- Folder **[rnn4sentise](https://github.com/al-alamin/Sentiment4SE/tree/main/rnn4sentise)** contains the complete replication package of **[RNN4SentiSE](https://www.dropbox.com/sh/0dzw55rqo7e6k2g/AACObtrRwBBUcrY_Xo3IOcDXa/Dataset/Lin%20et%20al%20-%20ICSE%202018?dl=0&preview=StackOverflow_Original.csv&subfolder_nav_tracking=1)** and components like dataset, executable pyhon files, our customization for the study and our requiremnts.txt with the tools' environment configuration.
-- Folder **[senti4sd](https://github.com/al-alamin/Sentiment4SE/tree/main/senti4sd)** contains the complete replication package of **[Senti4SD](https://github.com/collab-uniba/Senti4SD)** and components like dataset, executable pyhon files, our customization for the study and our requiremnts.txt with the tools' environment configuration.
-- Folder **[senticr](https://github.com/al-alamin/Sentiment4SE/tree/main/senticr)** contains the complete replication package of **[SentiCR](https://github.com/senticr/SentiCR/)** and components like dataset, executable pyhon files, our customization for the study and our requiremnts.txt with the tools' environment configuration.
-- Folder **[sentimoji](https://github.com/al-alamin/Sentiment4SE/tree/main/sentimoji)** contains the complete replication package of **[SEntiMoji](https://github.com/SEntiMoji/SEntiMoji)** and components like dataset, executable pyhon files, our customization for the study and our requiremnts.txt with the tools' environment configuration.
-- sentisead -->
-
-<!-- ## Our study result -->
+### Note
+- Tools folder contain their own `readme.md` files where it contains information about the tool from the original repository as well as some of our updated documentation. For each tools we provide the `requirements.txt` file that contains that environment configuration that we used during our experiments.
 
 
 
 ## Declaration
 We upload all the benchmark datasets that we used for this study to this repository for convenience.  We do not claim any rights on them because they were not generated and released by us,. If you use any of them, please make sure you fulfill the licenses that they were released with and consider citing the original papers. The folders in this repository contains links and licence information about the orginal repository.
 
-
-<!-- ## License
-This code is licensed under the MIT license (https://mit-license.org). -->
-
-
-
-<!-- # More description about the tools we used and our results will be added later. -->

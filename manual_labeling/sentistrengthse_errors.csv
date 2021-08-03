@@ -1,0 +1,94 @@
+id,dataset,text,oracle,sentistrengthse,Error category
+21605,github_test_2,"Please stop censoring my comments....""",-1,0,context
+5306,OrtuJIRA_test_9,This is quality work.,1,0,context
+5675,OrtuJIRA_test_9,Seems to work reliably now.,1,0,context
+24517,github_test_6,"Ah! I was looking at the wrong place to fix this error!""",-1,0,context
+13756,DatasetSenti4SDSO_test_8,I have added a reference to an excellent article showing to go about it.,0,1,context
+1699,OrtuJIRA_test_2,The instructions are fine.,0,1,domain specific
+12346,DatasetSenti4SDSO_test_5,Link is down again.,-1,0,domain specific
+13574,DatasetSenti4SDSO_test_8,"I don't know why but I used the tags in my post. It is showing fine in preview, but not in final post?!",-1,1,domain specific
+13780,DatasetSenti4SDSO_test_8,ROT13. It's super efficient too!,1,0,domain specific
+13993,DatasetSenti4SDSO_test_9,"Why is this getting downvoted? He got the terms IDE and compiler mixed up, but it's still an excellent question. He wants to know if Sun makes an official IDE, like Microsoft does with their Express products.",-1,1,domain specific
+20595,github_test_0,"Githubs eats my comments =(""",-1,0,domain specific
+20687,github_test_0,"@mbax First you bring us to leave and now you try to stop us doing so? there's just one word for that: Fail!""",-1,0,domain specific
+21089,github_test_1,"Confirm, this breaks compile. :[""",-1,0,domain specific
+21108,github_test_1,"sql/updates/auth/2013_04_25_00_auth_misc.txt WTF!? Have you even read the commits that make?""",-1,0,domain specific
+21170,github_test_1,"Java5? Eww imho :\ Legacy, I guess.""",-1,0,domain specific
+21178,github_test_1,"i fails :[""",-1,0,domain specific
+21537,github_test_2,"Jenkins and you are at war!""",-1,0,domain specific
+22281,github_test_3,"Yeah, this was pretty much just getting rid of some postgres syntax errors""",-1,0,domain specific
+22325,github_test_3,"don't pull.  master is broken!  will fix soon.""",-1,0,domain specific
+22875,github_test_4,"I guess my comment was vague, I was sleepy. There seemed to be some compile, errors. I'm at work now I'll post them when I get back home.""",-1,0,domain specific
+23604,github_test_5,"This sounds like a """"major"""" bug. Would you mind to fill a issue for it an close it ? So we have a better history of what bugs got fixed ?""",-1,0,domain specific
+27108,github_test_9,"Sure can do. Privacy is a right!""",1,0,domain specific
+21147,github_test_1,"Interesting... god damn .NET.  Oh well, ok I guess I'll write some more failing tests for those cases and see what else we can do.""",-1,0,domain specific
+621,OrtuJIRA_test_1,Hi Ian  this looks brilliant to me! So fat +1 from me.,1,0,domain specific
+21814,github_test_2,"Well, we didn't have a migration in a while but it is in the usual update workflow. Rails will also print a pretty clear error message in case you miss it. So I don't think that's necessary :)""",1,0,domain specific
+10040,DatasetSenti4SDSO_test_0,"And what do those ""lines upon lines of errors"" say? (Sheesh! Getting information out of you is about as painful as pulling out teeth!!)",-1,0,domain specific
+10117,DatasetSenti4SDSO_test_0,"Some of your code seemed redundant, so I removed some. Such as defining and then duplicating it into so I just defined once. I got rid of , , and since you can just as easily enter the value directly.Then I got rid of the whole get the latest file in the log folder, and just added the content to the log file defined earlier. I changed the log entries so they were done by tabs so the entry type, date, and the actual entry all line up nicely when you view the log file.Lastly I changed the whole If>ElseIf>ElseIf thing into a Switch, because Switch is awesome and totally underused! Oh yeah, I got rid of because it's pointless to define a variable and then just echo it. What you could do is in the section have it write-host the error and call the log function again, so people are forced to enter a valid entry.",0,1,domain specific
+12351,DatasetSenti4SDSO_test_5,"This is an internal error *in the Python C code*. Something more heinous is going on here, I don't think this is an error in your Python code.",-1,0,domain specific
+21564,github_test_2,"@jeresig - Right I get that *(and auto converting rgb would be fine)*. I just don't dig swallowing all potential errors :/""",-1,0,domain specific
+21577,github_test_2,"The joke about this commit is, that it does not help at all for bug fixing and neither better error handling. """,-1,1,domain specific
+149,OrtuJIRA_test_0,This is now fixed!,1,0,domain specific
+218,OrtuJIRA_test_0,Fixed in both the current trunk and 1.2.x branch,1,0,domain specific
+10453,DatasetSenti4SDSO_test_1,Your are really violating the idea of TDD if your code if doing something different for the Test. Why do you only need to change it inside the test?,-1,0,domain specific
+10464,DatasetSenti4SDSO_test_1,"I had a memory crash on UIGraphicsGetImageFromCurrentImageContext() ... if you're creating and releasing a lot of them, you should wrap them in a fresh AutoReleasePool for each iteration. Even allowing the NSRunLoop to tick WAS NOT ENOUGH for Apple/iOS to do housekeeping on garbage lying around from this. e.g.",-1,0,domain specific
+10520,DatasetSenti4SDSO_test_1,Horray for Android!,1,0,domain specific
+10594,DatasetSenti4SDSO_test_1,The problem was due to a malfunctioning . Very painful and a lot of time wasted.,-1,0,domain specific
+21576,github_test_2,"No one likes this commit, why don't you revert it?""",-1,0,domain specific
+21582,github_test_2,"Congratulations - you've broken the Apache record!""",-1,1,domain specific
+22257,github_test_3,"one of the WORST looking codes I have ever encountered in oficial TC repository... blah""",-1,0,domain specific
+1676,OrtuJIRA_test_2,stupid autoresize option doesn't resize it correctly,0,-1,domain specific
+20418,github_test_0,"Great, again client freezes ....""",-1,1,domain specific
+14073,DatasetSenti4SDSO_test_9,+1 for the sarcasm!,1,0,Figurative language
+26023,github_test_8,"This guy deserves a cookie.""",1,0,Figurative language
+3499,OrtuJIRA_test_5,+1  Patch looks nice.,0,1,General Error
+1477,OrtuJIRA_test_2,This is pretty embarassing!,-1,0,General Error
+2969,OrtuJIRA_test_5,+1 code review,1,0,General Error
+13932,DatasetSenti4SDSO_test_8,+1 for calling out the binding method.,1,0,General Error
+21381,github_test_1,":+1: for speed!""",1,0,General Error
+21805,github_test_2,"ya +1 for clearer code comment :D""",1,0,General Error
+591,OrtuJIRA_test_1,+1  This is a very desired feature for me. Ship it!,1,0,General Error
+1846,OrtuJIRA_test_3,+1 Thanks Harsh the patch looks good.  > Also might it be reasonable to mark just isInSafeMode @InterfaceStability.Stable?  Since this is a new API we are not sure if want to change it.  Let's leave it as-is for the moment.,1,0,General Error
+3289,OrtuJIRA_test_5,+1 looks good.,0,1,General Error
+3832,OrtuJIRA_test_6,+1 patch looks good to me.,0,1,General Error
+21407,github_test_1,"+1 This looks super useful!""",1,0,General Error
+21326,github_test_1,"Yep! :smile:""",1,-1,General Error
+21857,github_test_2,"Ish. The implementation should be done. We still have some tests to clean up + make sure we haven't removed any core functionality in the rewrite. The more that help out testing it, the quicker this will happen :smile: """,1,-1,General Error
+1160,OrtuJIRA_test_1,Ok wow welcome to Linux hell...,-1,1,Implicit sentiment polarity
+3120,OrtuJIRA_test_5,25 hours gone.,-1,0,Implicit sentiment polarity
+22167,github_test_3,"WTF?????""",-1,0,Implicit sentiment polarity
+20333,github_test_0," Uhm oh yeah. Hmm I would just go with Name (Handle)""",1,0,Implicit sentiment polarity
+55,OrtuJIRA_test_0,Very cool. Thank you.,0,1,Politeness
+1199,OrtuJIRA_test_2,Thanks Harsh good to know.,1,0,Politeness
+2571,OrtuJIRA_test_4,Thank you for reviewing.,0,1,Politeness
+2584,OrtuJIRA_test_4,Thanks Ankit!,0,1,Politeness
+2589,OrtuJIRA_test_4,Thanks.,0,1,Politeness
+2803,OrtuJIRA_test_4,Many thanks.,0,1,Politeness
+3200,OrtuJIRA_test_5,Thank you.,0,1,Politeness
+3231,OrtuJIRA_test_5,Thanks!,0,1,Politeness
+3250,OrtuJIRA_test_5,Thanks for your vote.,0,1,Politeness
+3641,OrtuJIRA_test_6,Thanks  Kevin,0,1,Politeness
+3652,OrtuJIRA_test_6,Thanks!,0,1,Politeness
+3673,OrtuJIRA_test_6,Thanks for the patch Glen.,0,1,Politeness
+3721,OrtuJIRA_test_6,Hi Sergey thanks for the patch.,0,1,Politeness
+2790,OrtuJIRA_test_4,Thank you.,0,1,Politeness
+2885,OrtuJIRA_test_4,Thank you Ivan!,0,1,Politeness
+2927,OrtuJIRA_test_4,Thanks Charitha.,0,1,Politeness
+20362,github_test_0,"Fixed in 5057a8156dc0b2f8664ca952d1da2954f385b2f2. Thanks and sorry. :)""",1,-1,Politeness
+20603,github_test_0,"thanks @Schmoozerd, i wanted to do it but didn't find my old command anymore and then forgot about it... :( *blames everyone else and the whole world and wanders off again*""",-1,0,Politeness
+29,OrtuJIRA_test_0,Hi George,1,0,Subjectivity in annotation
+246,OrtuJIRA_test_0,I hope someone can fix this,-1,0,Subjectivity in annotation
+290,OrtuJIRA_test_0,Hi Dave,-1,0,Subjectivity in annotation
+778,OrtuJIRA_test_1,I just committed this. Thanks Anupam!,0,1,Subjectivity in annotation
+21286,github_test_1,"It's quite a bad practice to do so :)""",1,0,Subjectivity in annotation
+47,OrtuJIRA_test_0,I think with the latest code,-1,0,Subjectivity in annotation
+2606,OrtuJIRA_test_4,This patch looks pretty good.,0,1,Subjectivity in annotation
+519,OrtuJIRA_test_0,Dumb user,0,-1,Subjectivity in annotation
+2888,OrtuJIRA_test_4,Whoops yeah sorry.,0,-1,Subjectivity in annotation
+10999,DatasetSenti4SDSO_test_2,doesn't work. how do I do this?,-1,0,Subjectivity in annotation
+11184,DatasetSenti4SDSO_test_2,Look into these links. They may help.,1,0,Subjectivity in annotation
+10492,DatasetSenti4SDSO_test_1,No worries! IE11 does a poor job of emulating other browser versions.,1,-1,Subjectivity in annotation
+24572,github_test_6,"done!""",1,0,Subjectivity in annotation
+2929,OrtuJIRA_test_4,Thanks for reporting.,0,1,Subjectivity in annotation
+1490,OrtuJIRA_test_2,The samples you gave are different.,-1,0,Subjectivity in annotation
